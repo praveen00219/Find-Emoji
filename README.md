@@ -8,6 +8,10 @@ A web application that allows users to search for and filter emojis. Built with 
 - **Filter Options:** Filter emojis by categories such as Face, Heart, Book, Hand, Sports, and Flag.
 - **Copy Emoji:** Click on an emoji to copy it to the clipboard with feedback indicating it has been copied.
 
+## Hosted Link
+
+View the live version of the project : [here](https://praveen-find-emoji.netlify.app/).
+
 ## Technologies Used
 
 - **HTML:** Markup language for the structure of the web page.
