@@ -6,7 +6,7 @@ let filterEmg = document.getElementById("filter-emoji");
 let displayEmoji = function (emojiList) {
   emoji_container.innerHTML = emojiList
     .map((data) => {
-      return ` <div class="emoji-item relative bg-orange-100 shrink-0 grow-0 shadow-lg p-1 rounded-lg m-2 w-[75px] text-[50px] cursor-pointer"> 
+      return ` <div class="emoji-item relative text-center bg-orange-100 shrink-0 grow-0 shadow-lg p-1 rounded-lg m-2 w-[75px] text-[50px] cursor-pointer"> 
                  <p class="emoji-character" onclick="copyEmoji(this)"> ${
                    data.emoji
                  } </p>
